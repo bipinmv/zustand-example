@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #272730;
+  color: white;
+}
+
+.count-box {
+  width: 8rem;
+  height: 8rem;
+  background: #394a52;
+  display: grid;
+  place-items: center;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.change-btns-container button{
+  margin: 10px;
+  padding: 5px 10px;
+  min-width: 100px;
+  border-radius: 5px;
+  border: solid 2px white;
+  outline: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.align-center {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.child-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  margin-top: 3rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
